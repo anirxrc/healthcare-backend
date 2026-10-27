@@ -103,16 +103,6 @@ All protected endpoints require a JWT token in the Authorization header:
 Authorization: Bearer <token>
 ```
 
-## Error Handling
-
-The API returns appropriate HTTP status codes and error messages:
-- 200: Success
-- 201: Created
-- 400: Bad Request
-- 401: Unauthorized
-- 403: Forbidden
-- 404: Not Found
-- 500: Internal Server Error
 
 ## Development
 
